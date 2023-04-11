@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="description" content="Form Page Default Descriptiion">
+    <title>Form Page Default</title>
+</head>
+<body>
+    <div>
+        <h1 id="title"> Dev's Form</h1>
+        <p id="subtitle">Insert your informations</p>
+        <br>
+    </div>
+    <form>
+        <fieldset class="group">
+            <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" name="'name" id="name" required>
+            </div>
+            <div class="field">
+                <label for="lastname">Lastname: </label>
+                <input type="text" name="lastname" id="lastname" required>
+            </div>
+        </fieldset>
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="field">
+                <label for="">Your specialization:</label>
+                <label for="">
+                    <input type="radio" name="devweb" value="frontend">Front-end
+                </label>
+                <label for="">
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label for="">
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+            </div>
+            <div class="field">
+                <label for="">Senority</label>
+                <select name="" id="senority">
+                    <option selected disabled value="">Select</option>
+                    <option value="">Junior</option>
+                    <option value="">Full</option>
+                    <option value="">Senior</option>
+                </select>
+            </div>
+            <fieldset class="group">
+                <label for=""><strong>Programming languages you work with: </strong> </label>
+                <div id="check">
+                    <input type="checkbox" id="tecnlogical" name="technology1" value="HTML">
+                    <label for="technology1">HTML</label>
+                    <input type="checkbox" id="tecnlogical" name="technology2" value="CSS">
+                    <label for="technology2">CSS</label>
+                    <input type="checkbox" id="tecnlogical" name="technology3" value="C#">
+                    <label for="technology3">C#</label>
+                    <input type="checkbox" id="tecnlogical" name="technology4" value="Java">
+                    <label for="technology4">Java</label>
+                    <input type="checkbox" id="tecnlogical" name="technology5" value="Python">
+                    <label for="technology5">Python</label>
+                    <input type="checkbox" id="tecnlogical" name="technology6" value="PHP">
+                    <label for="technology6">PHP</label>
+                    <input type="checkbox" id="tecnlogical" name="technology7" value="Javascript">
+                    <label for="technology7">Javascript</label>
+                    <input type="checkbox" id="tecnlogical" name="technology8" value="Dart">
+                    <label for="technology8">Dart</label>
+                    <input type="checkbox" id="tecnlogical" name="technology9" value="Kotlin">
+                    <label for="technology9">Kotlin</label>
+                    <input type="checkbox" id="tecnlogical" name="technology0" value="OTthers">
+                    <label for="technology10">Others</label>
+                </div>
+            </fieldset>
+            <div class="field">
+                <br>
+                <label for="">Tell us a little about your experience</label>
+                <textarea name="xp" id="xp" cols="30" rows="5"></textarea>
+            </div>
+            <button id="button" type="submit">Concluded</button>
+    </form>   
+</body>
+</html>
