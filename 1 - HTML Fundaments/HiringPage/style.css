@@ -71,3 +71,110 @@ body{
 #headerButton:hover{
     background-color:#3A404E;   
 }
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.primarySection{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding: 60px;
+    padding-bottom: 100px;
+}
+
+.primaryDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#primaryP1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8E2424;
+}
+
+#primaryH1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    color: #101828;
+}
+
+#primaryP2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #667085;
+}
+
+.secondarySection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondaryDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#secondaryH1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #8E2424;
+    flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#secondaryP1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#secondaryP2{
+width: 280px;
+height: 48px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #667085;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
