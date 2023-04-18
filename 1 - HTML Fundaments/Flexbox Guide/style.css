@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color: #5ec74a;
+    text-align: center;
+    padding: 25px;
+    margin: 10px;
+}
+
+Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    background-color: #5569c9;
+}
+
+.Div{
+    color: white;
+}
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding:  10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.SectionGrow{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 10px;    
+}
+
+.primarySection{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding:  10px;
+    gap: 10px;
+    margin-left: 1000px;
+    margin-right: 1000px;
+    margin-bottom: 10px;
+}
+
+.Container{
+    display: flex;
+    flex-direction: row;
+    background-color: purple;
+    gap: 10px;
+    padding: 10px;
+}
+
+.ContainerGrow{
+    display: flex;
+    background-color: purple;
+    padding: 10px;
+    margin: 0px;
+}
+
+.itemGrow{
+    background-color: orange;
+    margin: 1px;
+    text-align: center;
+}
+
+.item{
+    background-color: orange;
+    margin: 3px;  
+    padding: 10px;  
+}
+
+#itemOrder{
+    order: -1;
+    background-color: yellow;
+}
+
+#containerRowReverse{
+    flex-direction: row-reverse;
+}
+
+#containerColumn{
+    flex-direction: column;
+}
+
+#containerColumnReverse{
+    flex-direction: column-reverse;
+}
+
+#itemGrow{   
+    background-color: yellow;
+    flex-grow: 4;
+}
+
+#wrap{
+    flex-wrap: wrap;
+}
+
+#wrapReverse{
+    flex-wrap: wrap-reverse;
+}
+
+#flexStartContainer{
+    justify-content: flex-start;
+}
+#flexEndContainer{
+    justify-content: flex-end;
+}
+
+#centerContainer{
+    justify-content: center;
+}
+
+#spaceBetweenContainer{
+    justify-content: space-between;
+}
+
+#spaceAroundContainer{
+    justify-content: space-around;
+}
+
+#spaceEvenlyContainer{
+    justify-content: space-evenly;
+}
+
+
+footer{
+    background-color: #592e29;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><p>Header</p></header>
+    <main>
+        <Div class="Div">
+            <p>Main</p>
+        </Div>
+
+        <Section class="Section">
+            <p>Flex Container</p>
+            <Section class="Container">
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+            </Section>
+        </Section>
+
+        <Section class="primarySection">
+            <p>Flex Items Order</p>
+            <Section class="Container">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+            </Section>
+            <Section class="Container">
+                <div class="item"><p>1°</p></div>
+                <div class="item" id="itemOrder"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+            </Section>
+        </Section>
+         
+        <Section class="primarySection">
+            <p>Flex Direction</p><br>
+            <p>Row</p>
+            <Section class="Container">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+            </Section>
+            <p>Row Reverse</p>
+            <Section class="Container" id="containerRowReverse">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+            </Section>
+            <p>Column</p>
+            <Section class="Container" id="containerColumn">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+            </Section>
+            <p>Column Reverse</p>
+            <Section class="Container" id="containerColumnReverse">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+            </Section>
+        </Section>
+
+        <Section class="SectionGrow">
+            <p>Flex Grow</p>
+            <Section class="ContainerGrow">
+                <div class="itemGrow"><p>1</p></div>
+                <div class="itemGrow" id="itemGrow"><p>4</p></div>
+                <div class="itemGrow"><p>1</p></div>
+            </Section>
+        </Section>
+
+        <Section class="primarySection">
+            <p>Flex Wrap</p><br>
+            <p>Nowrap</p>
+            <Section class="Container" >
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+                <div class="item"><p>>>>>>>...</p></div>             
+            </Section>
+            <p>Wrap</p>
+            <Section class="Container" id="wrap">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+                <div class="item"><p>4°</p></div>
+                <div class="item"><p>5°</p></div>
+                <div class="item"><p>6°</p></div>
+                <div class="item"><p>7°</p></div>
+                <div class="item"><p>8°</p></div>
+            </Section>
+            <p>Wrap Reverse</p>
+            <Section class="Container" id="wrapReverse">
+                <div class="item"><p>1°</p></div>
+                <div class="item"><p>2°</p></div>
+                <div class="item"><p>3°</p></div>
+                <div class="item"><p>4°</p></div>
+                <div class="item"><p>5°</p></div>
+                <div class="item"><p>6°</p></div>
+                <div class="item"><p>7°</p></div>
+                <div class="item"><p>8°</p></div>
+            </Section>
+        </Section>
+        
+        <Section class="Section" id="justifySection"> 
+            <p>Justify content</p>
+            <br>
+            <p>Flex Start</p>
+            <Section class="Container" id="flexStartContainer">
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+            </Section>
+            <p>Flex End</p>
+            <Section class="Container" id="flexEndContainer">
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+            </Section>
+            <p>Center</p>
+            <Section class="Container" id="centerContainer">
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+            </Section>
+            <p>Space Between</p>
+            <Section class="Container" id="spaceBetweenContainer">
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+            </Section>
+            <p>Space Around</p>
+            <Section class="Container" id="spaceAroundContainer">
+                <div class="item"><p>Text</p></div>
+                <div class="item"><p>123</p></div>
+                <div class="item"><p>boolean</p></div>
+            </Section>
+            <p>Space Evenly</p>
+            <Section class="Container" id="spaceEvenlyContainer">
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+                <div class="item"><p></p></div>
+            </Section>
+            <p>Item Self Align</p>
+            <Section class="Container" id="flexStartContainer">
+                <div class="item"><p></p></div>
+                <div class="item" ><p></p></div><br><span>????</span> 
+                <div class="item" id="itemSelfAlign"><p></p></div>
+            </Section>
+        </Section>
+
+        
+
+    </main>
+    <footer><p>Footer</p></footer>
+</body>
+</html>
