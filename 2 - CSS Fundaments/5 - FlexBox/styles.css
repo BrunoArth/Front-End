@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+  }
+
+.boxFlexDirection {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.boxFlexWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxFlexFlow{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.boxFlexStart {
+    display: flex;
+    align-items: flex-start;
+  }
+  .boxJCStart{
+    display: flex;
+    justify-content: flex-start;
+  }

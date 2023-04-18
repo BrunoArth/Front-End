@@ -1,0 +1,43 @@
+*{
+    color: red;
+}
+
+h1{
+    color: aqua;
+}
+
+.box{
+    color: bisque;
+}
+
+#unique{
+    color: blue;
+}
+
+a[title="title"]{
+    color: blueviolet;
+}
+
+a:hover{
+    color: brown;
+}
+
+p::first-letter{
+    color: cadetblue;
+}
+
+article p{
+    color: chartreuse;
+}
+
+div > span{
+    color: chocolate;
+}
+
+h2 + p{
+    color: crimson;
+}
+
+p ~ span{
+    color: cyan;
+}

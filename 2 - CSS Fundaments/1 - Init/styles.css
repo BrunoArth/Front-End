@@ -1,0 +1,48 @@
+h1 {
+    color: red;
+  }
+
+p{
+    color: green;
+}
+
+p, li{
+    color:green;
+}
+
+li{
+    list-style-type: none;
+}
+
+li.special, span.special{
+    color: orange;
+    font-weight: bold;
+}
+
+li em{
+    color: rebeccapurple;
+}
+
+h1 + p{
+    font-size: 200%;
+}
+
+a:link{
+    color: pink;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* selects any <span> that is inside a <p>, which is inside an <article>  */
+article p span {color: brown; }
+
+/* selects any <p> that comes directly after a <ul>, which comes directly after an <h1>  */
+h1 + ul + p { color: aqua; }
+
+  
